@@ -1,0 +1,121 @@
+.pricing{
+    font-family: "poppins";
+    background-color: black;
+    text-align: center;
+}
+.pricing h1{
+    padding-top: 80px;
+    color: white;
+    font-size: 80px;
+    /* align-content: center; */
+}
+.pricing p{
+    color: white;
+    font-size: 18px;
+    align-items: flex-start;
+}
+.deal-container {
+    display: flex; /* Make the container a flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+    justify-content: space-around; /*Distribute items evenly with spacing*/
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.deal-card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex; /* Make the card a flexbox container */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; 
+
+}
+.deal-card h2{
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+.deal-card p {
+    color: black;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 250px; /* Adjust the height as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    display: flex; /* Make the paragraph a flexbox */
+    flex-wrap: wrap;/*  Allow text to wrap onto multiple lines */
+    
+}
+.deal-button{
+    margin-bottom: 20px;
+    background-color: #363062;
+    border-color: #363062;
+    border-radius: 5px;
+    box-shadow: none;
+    color: white;
+    height: 40px;
+    width: 150px;
+    
+}
+.main-2{
+    background-color: #000000;
+    font-family: "poppins";
+    color: white;
+}
+.policy-container {
+    display: flex; /* Make the container a flexbox */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+    justify-content: space-around; /* Distribute items evenly with spacing */
+    padding-top: 100px;
+}
+.policy-card {
+    background-color:#526D82;
+    border-radius: 10px;
+    height: 400px;
+}
+.policy-card img{
+    height: 60px;
+    /* border-radius: 50%; */
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.policy-card h2{
+    padding-top: 100px;
+    padding-left: 20px;
+}
+.policy-card p {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 250px; /* Adjust the height as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    display: flex; /* Make the paragraph a flexbox */
+    flex-wrap: wrap; /* Allow text to wrap onto multiple lines */
+}
+.main-3{
+    background-color:  #222831;
+    font-family: "poppins";
+    color: white;
+    display: flex;
+}
+.container {
+  flex: 1; 
+}
+.main-3-img {
+    width: 500px; /* Adjust width as needed */
+    height: auto; /* Maintain image aspect ratio */
+    padding-right: 70px;
+  }
+.main-3-h2{
+    font-size: 25px;
+}
+.main-3-h1{
+    font-size: 80px;
+}
+.main-3-p{
+    padding-top: 20px;
+    font-size: 20px;
+}

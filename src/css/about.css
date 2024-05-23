@@ -1,0 +1,137 @@
+
+.about{
+    font-family: poppins;
+    /* display: flex; */
+}
+.main-1{
+    padding: 40px;
+    text-align: center;
+}
+.main-1 h2{
+    color: rgb(98, 105, 105);
+    padding-top: 30px;
+    font-size: 18px;
+}
+.main-1-h1{
+    font-size: 70px;
+}
+.main-1-p{
+    color: rgb(64, 69, 69);
+    font-size: 20px;
+}
+.main-2{
+    background-color: rgb(26, 122, 163);
+}
+.main-2-h1{
+    font-size: 70px;
+}
+.main-2 h2{
+    color: rgb(157, 188, 200);
+    padding-top: 30px;
+    font-size: 18px;
+}
+.main-2 h3{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-2-p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.details-container {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); /* Adjust as needed */
+    grid-template-rows: repeat(2, 1fr); /* Two rows with equal height */
+    grid-column-gap: 0; /* Remove column gaps */
+    grid-row-gap: 0;
+}
+  
+.details-card {
+    padding: 15px; /* Optional padding */
+    border-radius: 5px; /* Optional rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+  
+.details-card img {
+    width: 50px; /* Image takes full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure image covers entire area */
+}
+.details-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    display: flex; /* Make the paragraph a flexbox */
+    flex-wrap: wrap;/*  Allow text to wrap onto multiple lines */   
+}
+.main-3-h1{
+    font-size: 70px;
+}
+.main-3-h3{
+    font-size: 18px;
+    position: relative;
+}
+.main-3-p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.stats-container {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;   
+}
+.stats-card {
+    padding: 15px; /* Optional padding */
+    border-radius: 5px; /* Optional rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+.stats-title{
+    font-weight: bold;
+}
+.stats-card img {
+    padding-bottom: 40px;
+    width: 50px; /* Image takes full width of the card */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensure image covers entire area */
+}
+.stats-description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.seperator{
+    border-bottom: 1px solid #ffffff; /* Adjust line style and color */
+    /* margin: 10px 0; Optional: Add space above and below the line */
+}
+.main-3-sub {
+    display: flex; /* Enable flexbox for the container */
+    align-items: center; /* Align elements vertically at the center */
+    justify-content: space-between; /* Distribute elements horizontally */
+}
+  
+.seperator-h1 {
+    font-size: 50px;
+}
+  
+.seperator-p {
+    flex-grow: 1; /* Allow the paragraph to grow horizontally */
+    font-size: 20px;
+    align-items: end;
+    margin-right: 10px;
+}
+.main-3-btn{
+    margin-left: auto;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    color: white;
+    width: auto;
+    height: 40px;
+    border-color: white;
+}

@@ -1,0 +1,154 @@
+.home-page{
+  font-family: "poppins";
+}
+.main-1{
+  background-color: white;
+  padding-top: 20px;
+}
+.main-text{
+  font-size: 60px;
+  padding-bottom: 10px;
+}
+.main-para{
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.main-button{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  /* padding-left:10px; */
+}
+.blog-post {
+  position: relative;
+  overflow: hidden;
+}
+.blog-details {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
+padding: 20px;
+text-align: center;
+transition: opacity 0.3s ease;
+}
+
+.blog-post:hover .blog-details {
+opacity: 1;
+}
+
+.main-2{
+ background-color: #EEF7FF;
+ padding-top: 150px;
+ padding-bottom: 50px;
+}
+
+.feature-container {
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+  justify-content: space-around; /* Distribute items evenly with spacing */
+  padding-top: 100px;
+}
+.feature-card {
+  background-color: white;
+  border-radius: 10px;
+}
+.feature-card img{
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.feature-card h2{
+  color: black;
+  padding: 20px;
+}
+.feature-card p {
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 250px; /* Adjust the height as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  display: flex; /* Make the paragraph a flexbox */
+  flex-wrap: wrap; /* Allow text to wrap onto multiple lines */
+}
+.main-3{
+  background-color: #D2E0FB;
+  padding-top: 150px;
+  padding-bottom: 50px;
+ }
+.main-3-h2{
+  padding-top: 20px;
+}
+.domain-button{
+  width: 250px;
+  height: 60px;
+  font-size: 20px;
+  /* padding-left:10px; */
+}
+.deal-container {
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+  justify-content: space-around; /* Distribute items evenly with spacing */
+  padding-top: 100px;
+}
+.deal-card {
+  background-color: white;
+  border-radius: 10px;
+}
+.deal-card h2{
+  font-size: 30px;
+  padding: 20px;
+}
+.deal-card p {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 250px; /* Adjust the height as needed */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5;
+  display: flex; /* Make the paragraph a flexbox */
+  flex-wrap: wrap; /* Allow text to wrap onto multiple lines */
+}
+
+.main-4{
+  background-color: #0c0e12;
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+.main-4-text{
+  color: #ffffff;
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+.main-4-h2{
+  color: #ffffff;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+}
+.column ul {
+  list-style: none; /* Remove default list style (bullets) */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column li {
+  font-weight: lighter;
+  margin-bottom: 5px; /* Add spacing between list items */
+}
+.columns-container {
+  display: flex; /* Make the container a flexbox */
+  justify-content: flex-start;
+  gap: 100px;
+  font-size: 20px;
+  color: white;
+}
